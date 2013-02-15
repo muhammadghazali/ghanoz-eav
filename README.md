@@ -5,7 +5,9 @@ An e-mail address format validator.
 
 ### How to install
 
-`npm install ghanoz-email-address-validator`
+```javascript
+npm install ghanoz-email-address-validator
+```
 
 ### How to use
 
