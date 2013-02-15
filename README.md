@@ -1,18 +1,18 @@
-ghanoz-email-address-validator
-==============================
+ghanoz-eav
+==========
 
 An e-mail address format validator.
 
 ### How to install
 
 ```javascript
-npm install ghanoz-email-address-validator
+npm install ghanoz-eav
 ```
 
 ### How to use
 
 ```javascript
-geav = require('ghanoz-email-address-validator');
+geav = require('ghanoz-eav');
 
 geav.isValid('test@example.com');
 ```
