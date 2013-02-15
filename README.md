@@ -12,7 +12,7 @@ npm install ghanoz-email-address-validator
 ### How to use
 
 ```javascript
-var geav = require('geav');
+geav = require('ghanoz-email-address-validator');
 
 geav.isValid('test@example.com');
 ```
