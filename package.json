@@ -1,5 +1,5 @@
 {
-  "name": "ghanoz-email-address-validator",
+  "name": "ghanoz-eav",
   "version": "0.1.0",
   "author": "Muhammad Ghazali <muhammadghazali2480@gmail.com>",
   "description": "E-mail address format validator",
@@ -9,9 +9,9 @@
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/muhammadghazali/ghanoz-email-address-validator.git"
+    "url": "https://github.com/muhammadghazali/ghanoz-eav.git"
   },
-  "bugs": "https://github.com/muhammadghazali/ghanoz-email-address-validator/issues",
+  "bugs": "https://github.com/muhammadghazali/ghanoz-eav/issues",
   "keywords": [
     "email",
     "validator"
