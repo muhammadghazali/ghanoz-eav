@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/muhammadghazali/ghanoz-email-address-validator.git"
   },
+  "bugs": "https://github.com/muhammadghazali/ghanoz-email-address-validator/issues",
   "keywords": [
     "email",
     "validator"
