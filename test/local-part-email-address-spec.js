@@ -39,7 +39,7 @@ vows.describe('Scenario: local part is more than 64 characters')
     "\nWhen validating": {
       topic: geav.isValid('veryveryveryveryveryveryveryveryveryveryveryveryverylongemailadress@testdomain.com'),
       "the validation should be successful": function (topic) {
-        assert.isTrue(topic);
+        assert.isFalse(topic);
       }
     }
   }
