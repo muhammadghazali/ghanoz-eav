@@ -5,7 +5,9 @@ An e-mail address format validator.
 
 ### How to install
 
-`npm install ghanoz-email-address-validator`
+```javascript
+npm install ghanoz-email-address-validator
+```
 
 ### How to use
 
@@ -19,4 +21,4 @@ or look over the test suite
 
 ### License
 
-Ghanoz's JavaScript Code Template for NetBeans is licensed under the MIT License.
+Licensed under the MIT License.
