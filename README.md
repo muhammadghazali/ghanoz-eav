@@ -12,7 +12,7 @@ An e-mail address format validator.
 ```javascript
 var geav = require('geav');
 
-geav.isValid('test@example.com);
+geav.isValid('test@example.com');
 ```
 
 or look over the test suite
