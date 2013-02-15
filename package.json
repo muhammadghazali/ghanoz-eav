@@ -2,7 +2,7 @@
   "name": "ghanoz-eav",
   "version": "0.1.0",
   "author": "Muhammad Ghazali <muhammadghazali2480@gmail.com>",
-  "description": "E-mail address format validator",
+  "description": "The hardcore way to validate email address",
   "scripts": {
     "test": "vows --spec --isolate"
   },

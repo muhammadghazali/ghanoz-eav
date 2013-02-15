@@ -1,7 +1,7 @@
 ghanoz-eav
 ==========
 
-An e-mail address format validator.
+The hardcore way to validate email address.
 
 ### How to install
 
