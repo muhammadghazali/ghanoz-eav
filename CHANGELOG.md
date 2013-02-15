@@ -1,4 +1,9 @@
 
+v0.2.0 / 2013-02-16
+===================
+
+  * Verify the maximum length of email address is 253 characters.
+
 v0.1.0 / 2013-02-15
 ===================
 
