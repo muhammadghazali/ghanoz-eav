@@ -1,0 +1,24 @@
+{
+  "name": "ghanoz-email-address-validator",
+  "version": "0.1.0",
+  "author": "Muhammad Ghazali <muhammadghazali2480@gmail.com>",
+  "description": "Validating e-mail address format using the based on the technique from RFC 3696",
+  "scripts": {
+    "test": "vows --spec --isolate"
+  },
+  "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammadghazali/ghanoz-email-address-validator.git"
+  },
+  "keywords": [
+    "email",
+    "validator"
+  ],
+  "devDependencies": {
+    "vows": "*",
+    "jshint": "*"
+  },
+  "license": "MIT",
+  "engines": "0.8.x"
+}
