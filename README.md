@@ -16,3 +16,7 @@ geav.isValid('test@example.com');
 ```
 
 or look over the test suite
+
+### License
+
+Ghanoz's JavaScript Code Template for NetBeans is licensed under the MIT License.
