@@ -16,3 +16,7 @@ geav.isValid('test@example.com');
 ```
 
 or look over the test suite
+
+### License
+
+Licensed under the MIT License.
