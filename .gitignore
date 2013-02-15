@@ -1,11 +1,5 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+nbproject
+node_modules
 
 pids
 logs
