@@ -40,3 +40,49 @@ vows.describe('Scenario: Only accept string')
     }
   }
 }).export(module);
+
+/**
+ * Scenario: Email address length is less than 320 characters
+ *
+ * Given email address length is less than 320 characters
+ * When validating
+ * Then the validation should be successful
+ */
+vows.describe('Scenario: Email address length is less than 320 characters')
+  .addBatch({
+  "\nGiven email address length is less than 320 characters": {
+    "\nWhen validating": {
+      topic: function () {
+        var veryLongEmailAddress = 'test@veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery.com';
+        return geav.isValid(veryLongEmailAddress);
+      },
+      "the validation should be successful": function (topic) {
+        assert.isTrue(topic);
+      }
+
+    }
+  }
+}).export(module);
+
+/**
+ * Scenario: Email address length is more than 320 characters
+ *
+ * Given email address length is more than 320 characters
+ * When validating
+ * Then the validation should be successful
+ */
+vows.describe('Scenario: Email address length is more than 320 characters')
+  .addBatch({
+  "\nGiven email address length is more than 320 characters": {
+    "\nWhen validating": {
+      topic: function () {
+        var veryLongEmailAddress = 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttest@veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery.com';
+        return geav.isValid(veryLongEmailAddress);
+      },
+      "the validation should be successful": function (topic) {
+        assert.isFalse(topic);
+      }
+
+    }
+  }
+}).export(module);
