@@ -1,4 +1,11 @@
 
+v0.3.0 / 2013-02-18
+==================
+
+  * Validating an empty local part should return false
+  * Validating an empty domain part should return false
+  * Refactor the variables name
+
 v0.2.0 / 2013-02-16
 ===================
 

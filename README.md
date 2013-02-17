@@ -3,6 +3,11 @@ ghanoz-eav
 
 The hardcore way to validate email address.
 
+### How it works
+
+* Validating the local-part of email address the hardcore way
+* Validating the domain-part of email address the hardcore way
+
 ### How to install
 
 Invoke the following command:
