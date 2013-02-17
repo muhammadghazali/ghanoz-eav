@@ -35,9 +35,16 @@
 
 <p>The hardcore way to validate email address.</p>
 
-<h3>How to install</h3>
+<h3>How it works</h3>
 
-<div class="highlight"><pre><span class="nx">npm</span> <span class="nx">install</span> <span class="nx">ghanoz</span><span class="o">-</span><span class="nx">eav</span>
+<ul>
+<li>Validating the local-part of email address the hardcore way</li>
+<li>Validating the domain-part of email address the hardcore way</li>
+</ul><h3>How to install</h3>
+
+<p>Invoke the following command:</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>npm install ghanoz-eav
 </pre></div>
 
 <h3>How to use</h3>
@@ -47,7 +54,20 @@
 <span class="nx">geav</span><span class="p">.</span><span class="nx">isValid</span><span class="p">(</span><span class="s1">'test@example.com'</span><span class="p">);</span>
 </pre></div>
 
-<p>or look over the test suite</p>
+<p>or look over the <a href="https://github.com/muhammadghazali/ghanoz-eav/tree/master/examples">examples</a>.</p>
+
+<h3>Running Tests</h3>
+
+<p>To run the test suite first invoke the following command within the repo,
+installing the development dependencies:</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>npm install
+</pre></div>
+
+<p>then run the tests:</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>npm <span class="nb">test</span>
+</pre></div>
 
 <h3>License</h3>
 
