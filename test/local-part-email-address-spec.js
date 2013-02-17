@@ -63,3 +63,19 @@ vows.describe('Scenario: local part is 64 characters')
     }
   }
 }).export(module);
+
+/**
+ * Scenario: Local part is an empty string
+ *
+ * Given email address contain an empty local part (empty string)
+ * Then the validation result should be false
+ */
+vows.describe('Scenario: Empty local part')
+  .addBatch({
+  "\nGiven submitted value is an empty string": {
+    topic: geav.isValid('@test'),
+    "the validation result should be false": function (topic) {
+      assert.isFalse(topic);
+    }
+  }
+}).export(module);
