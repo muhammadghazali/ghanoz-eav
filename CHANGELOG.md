@@ -1,4 +1,11 @@
 
+v0.4.0 / 2013-03-08
+==================
+
+  * Enhanced JSDoc
+  * Removed JShint from dev dependencies
+  * Add simple regular expression
+
 v0.3.0 / 2013-02-18
 ==================
 
