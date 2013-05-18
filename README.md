@@ -1,6 +1,8 @@
 ghanoz-eav
 ==========
 
+[![Build Status](https://travis-ci.org/muhammadghazali/ghanoz-eav.png?branch=master)](https://travis-ci.org/muhammadghazali/ghanoz-eav)
+
 The hardcore way to validate email address.
 
 ### How it works
