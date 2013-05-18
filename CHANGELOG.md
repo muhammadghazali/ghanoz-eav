@@ -1,4 +1,10 @@
 
+v0.4.1 / 2013-05-19
+==================
+
+  * Refactoring: Extract function to validate email address argument
+  * Refactoring: Extract functions to validate email address parts
+
 v0.4.0 / 2013-03-08
 ==================
 
