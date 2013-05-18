@@ -20,5 +20,5 @@
     "vows": "0.7.x"
   },
   "license": "MIT",
-  "engines": "0.8.x"
+  "engines": ">=0.8.x"
 }
