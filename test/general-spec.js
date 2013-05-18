@@ -7,13 +7,25 @@ var
   assert = require('assert'),
   geav = require('./../index.js');
 
+vows.describe('Should load the module')
+  .addBatch({
+  'Load the module': {
+    topic: geav,
+    'should load the module': function (topic) {
+      assert.include(topic, 'isValid');
+      assert.isFunction(topic.isValid);
+    }
+  }
+})
+  .export(module);
+
 /**
  * Scenario: Empty string
  *
  * Given submitted value is an empty string
  * Then the function should raise an Error
  */
-vows.describe('Scenario: Empty string')
+vows.describe('Empty string')
   .addBatch({
   "\nGiven submitted value is an empty string": {
     "the function should raise an Error": function () {
@@ -30,7 +42,7 @@ vows.describe('Scenario: Empty string')
  * Given submitted value is not a string
  * Then the function should raise an Error
  */
-vows.describe('Scenario: Only accept string')
+vows.describe('Only accept string')
   .addBatch({
   "\nGiven submitted value is not a string": {
     "the function should raise an Error": function () {
@@ -48,7 +60,7 @@ vows.describe('Scenario: Only accept string')
  * When validating
  * Then the validation should be successful
  */
-vows.describe('Scenario: Email address length is less than 320 characters')
+vows.describe('Email address length is less than 320 characters')
   .addBatch({
   "\nGiven email address length is less than 320 characters": {
     "\nWhen validating": {
@@ -71,7 +83,7 @@ vows.describe('Scenario: Email address length is less than 320 characters')
  * When validating
  * Then the validation should be successful
  */
-vows.describe('Scenario: Email address length is more than 320 characters')
+vows.describe('Email address length is more than 320 characters')
   .addBatch({
   "\nGiven email address length is more than 320 characters": {
     "\nWhen validating": {

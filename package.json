@@ -1,6 +1,6 @@
 {
   "name": "ghanoz-eav",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": "Muhammad Ghazali <muhammadghazali2480@gmail.com>",
   "description": "The hardcore way to validate email address",
   "scripts": {
@@ -16,9 +16,12 @@
     "email",
     "validator"
   ],
+  "dependencies": {
+    "lodash": "1.2.x"
+  },
   "devDependencies": {
-    "vows": "*"
+    "vows": "0.7.x"
   },
   "license": "MIT",
-  "engines": "0.8.x"
+  "engines": ">=0.8.x"
 }

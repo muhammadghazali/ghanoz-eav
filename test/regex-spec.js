@@ -14,7 +14,7 @@ var
  * When validating
  * Then the validation should be successful
  */
-vows.describe('Scenario: Validating valid email address')
+vows.describe('Validating valid email address')
   .addBatch({
   "\nGiven submitted value is an empty string": {
     "\nWhen validating": {
