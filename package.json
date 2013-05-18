@@ -17,7 +17,7 @@
     "validator"
   ],
   "devDependencies": {
-    "vows": "*"
+    "vows": "0.7.x"
   },
   "license": "MIT",
   "engines": "0.8.x"
