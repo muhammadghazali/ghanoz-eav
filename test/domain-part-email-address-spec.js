@@ -14,7 +14,7 @@ var
  * When validating
  * Then the validation should be successful
  */
-vows.describe('Scenario: domain part is less than 255 characters')
+vows.describe('domain part is less than 255 characters')
   .addBatch({
   "\nGiven domain part length is less than 255 characters": {
     "\nWhen validating": {
@@ -33,7 +33,7 @@ vows.describe('Scenario: domain part is less than 255 characters')
  * When validating
  * Then the validation result should be false
  */
-vows.describe('Scenario: domain part is more than 255 characters')
+vows.describe('domain part is more than 255 characters')
   .addBatch({
   "\nGiven domain part length is more than 255 characters": {
     "\nWhen validating": {
@@ -51,7 +51,7 @@ vows.describe('Scenario: domain part is more than 255 characters')
  * Given email address contain an empty domain part (empty string)
  * Then the validation result should be false
  */
-vows.describe('Scenario: Empty domain part')
+vows.describe('Empty domain part')
   .addBatch({
   "\nGiven submitted value is an empty string": {
     topic: geav.isValid('test@'),
