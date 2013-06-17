@@ -1,6 +1,6 @@
 {
   "name": "ghanoz-eav",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "Muhammad Ghazali <muhammadghazali2480@gmail.com>",
   "description": "The hardcore way to validate email address",
   "scripts": {
